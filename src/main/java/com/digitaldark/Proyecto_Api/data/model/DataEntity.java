@@ -21,12 +21,12 @@ public class DataEntity {
     @Column(name = "company", nullable = false, length = 50)
     private String company;
 
-    @Column(name = "company_url", nullable = false, length = 250)
-    private String companyUrl;
-
-    @Column(name = "description", nullable = false, length = 250)
-    private String description;
-
     @Column(name = "title", nullable = false, length = 50)
     private String title;
+
+    @Column(name = "description", nullable = false, length = 500)
+    private String description;
+
+    @Column(name = "company_url", nullable = false, length = 250)
+    private String companyUrl;
 }

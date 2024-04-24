@@ -12,9 +12,9 @@ import lombok.NoArgsConstructor;
 public class DataResponseDTO {
     private String company;
 
-    private String companyUrl;
+    private String title;
 
     private String description;
 
-    private String title;
+    private String companyUrl;
 }
